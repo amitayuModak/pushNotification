@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "961306619153",
+    "project_id": "push-notification-fa85d",
+    "storage_bucket": "push-notification-fa85d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:961306619153:android:eeaa66ea53d3bf309070b0",
+        "android_client_info": {
+          "package_name": "com.teamcognito.pushnotification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "961306619153-dsi2vdel06cs6jqbghl37if1lvrfrb5c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgioPNtjmpEHf4e21fwHIbcdbn3dR5Apg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "961306619153-dsi2vdel06cs6jqbghl37if1lvrfrb5c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
