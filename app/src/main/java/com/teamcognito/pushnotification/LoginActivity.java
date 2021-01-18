@@ -8,7 +8,12 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-public class LoginActivity extends AppCompatActivity {
+import com.teamcognito.pushnotification.APIInterface.ApiInterface;
+import com.teamcognito.pushnotification.APIInterface.ApiResponse;
+
+import retrofit2.Response;
+
+public class LoginActivity extends AppCompatActivity implements ApiResponse {
 
     EditText id,password;
     Button login;
@@ -32,7 +37,23 @@ public class LoginActivity extends AppCompatActivity {
 
     public void loginApi()
     {
+        //pass parrmeter here
         Intent intent=new Intent(LoginActivity.this,MainActivity.class);
         startActivity(intent);
+    }
+
+    @Override
+    public void onResponse(Response arg0, String key) {
+        switch (key)
+        {
+                case "":
+                //get response here
+                break;
+        }
+    }
+
+    @Override
+    public void onError(Throwable t, String key) {
+
     }
 }
